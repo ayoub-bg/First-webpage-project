@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="image/download.png" type="image/icon-x" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact us</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="tshirts.html">Main Page</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Having problems or cant find a product ?</h2>
+      <p>
+        If you are having issues with finding a product make sure you have the
+        correct product name and try again
+      </p>
+
+      <hr />
+
+      <h2>Send us a message</h2>
+      <p>
+        if you are unable to solve your issue then we are happy to help you out
+      </p>
+      <form action="https://httpbin.org/get" method="post">
+        <fieldset>
+          <legend>Submit your issue here</legend>
+
+          <p>
+            <label for="email">Your email:</label>
+            <input type="email" name="email" id="email" required />
+          </p>
+
+          <p>
+            <label for="message"></label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="40"
+              rows="15"
+            ></textarea>
+          </p>
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>T-shirt store &copy; All rights Researved</p>
+      <nav>
+        <a href="privicy.html">Privicy</a> | <a href="policy.html">Policy</a>
+      </nav>
+    </footer>
+  </body>
+</html>
